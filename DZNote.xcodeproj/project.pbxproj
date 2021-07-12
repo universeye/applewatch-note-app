@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFF6DBAE269CA3E000960055 /* DZNote WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BFF6DBAD269CA3E000960055 /* DZNote WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BFF6DBB3269CA3E200960055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF6DBB2269CA3E200960055 /* Assets.xcassets */; };
+		BFF6DBBA269CA3E200960055 /* DZNote WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BFF6DBB9269CA3E200960055 /* DZNote WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BFF6DBBF269CA3E200960055 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6DBBE269CA3E200960055 /* ContentView.swift */; };
+		BFF6DBC1269CA3E200960055 /* DZNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6DBC0269CA3E200960055 /* DZNoteApp.swift */; };
+		BFF6DBC3269CA3E200960055 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6DBC2269CA3E200960055 /* ComplicationController.swift */; };
+		BFF6DBC5269CA3E200960055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF6DBC4269CA3E200960055 /* Assets.xcassets */; };
+		BFF6DBC8269CA3E200960055 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF6DBC7269CA3E200960055 /* Preview Assets.xcassets */; };
+		BFF6DBDA269CA73A00960055 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF6DBD9269CA73A00960055 /* Note.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFF6DBAF269CA3E000960055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFF6DBA3269CA3E000960055 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF6DBAC269CA3E000960055;
+			remoteInfo = "DZNote WatchKit App";
+		};
+		BFF6DBBB269CA3E200960055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFF6DBA3269CA3E000960055 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF6DBB8269CA3E200960055;
+			remoteInfo = "DZNote WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BFF6DBCF269CA3E200960055 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BFF6DBBA269CA3E200960055 /* DZNote WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF6DBD3269CA3E200960055 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BFF6DBAE269CA3E000960055 /* DZNote WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BFF6DBA9269CA3E000960055 /* DZNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF6DBAD269CA3E000960055 /* DZNote WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DZNote WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF6DBB2269CA3E200960055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFF6DBB4269CA3E200960055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF6DBB9269CA3E200960055 /* DZNote WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DZNote WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF6DBBE269CA3E200960055 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFF6DBC0269CA3E200960055 /* DZNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DZNoteApp.swift; sourceTree = "<group>"; };
+		BFF6DBC2269CA3E200960055 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		BFF6DBC4269CA3E200960055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFF6DBC7269CA3E200960055 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFF6DBC9269CA3E200960055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF6DBD9269CA73A00960055 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFF6DBB6269CA3E200960055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFF6DBA2269CA3E000960055 = {
+			isa = PBXGroup;
+			children = (
+				BFF6DBB1269CA3E000960055 /* DZNote WatchKit App */,
+				BFF6DBBD269CA3E200960055 /* DZNote WatchKit Extension */,
+				BFF6DBAA269CA3E000960055 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFF6DBAA269CA3E000960055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFF6DBA9269CA3E000960055 /* DZNote.app */,
+				BFF6DBAD269CA3E000960055 /* DZNote WatchKit App.app */,
+				BFF6DBB9269CA3E200960055 /* DZNote WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFF6DBB1269CA3E000960055 /* DZNote WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				BFF6DBB2269CA3E200960055 /* Assets.xcassets */,
+				BFF6DBB4269CA3E200960055 /* Info.plist */,
+			);
+			path = "DZNote WatchKit App";
+			sourceTree = "<group>";
+		};
+		BFF6DBBD269CA3E200960055 /* DZNote WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BFF6DBD8269CA73000960055 /* Model */,
+				BFF6DBD7269CA72000960055 /* View */,
+				BFF6DBC0269CA3E200960055 /* DZNoteApp.swift */,
+				BFF6DBC2269CA3E200960055 /* ComplicationController.swift */,
+				BFF6DBC4269CA3E200960055 /* Assets.xcassets */,
+				BFF6DBC9269CA3E200960055 /* Info.plist */,
+				BFF6DBC6269CA3E200960055 /* Preview Content */,
+			);
+			path = "DZNote WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		BFF6DBC6269CA3E200960055 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFF6DBC7269CA3E200960055 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFF6DBD7269CA72000960055 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BFF6DBBE269CA3E200960055 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFF6DBD8269CA73000960055 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFF6DBD9269CA73A00960055 /* Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFF6DBA8269CA3E000960055 /* DZNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF6DBD4269CA3E200960055 /* Build configuration list for PBXNativeTarget "DZNote" */;
+			buildPhases = (
+				BFF6DBA7269CA3E000960055 /* Resources */,
+				BFF6DBD3269CA3E200960055 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFF6DBB0269CA3E000960055 /* PBXTargetDependency */,
+			);
+			name = DZNote;
+			productName = DZNote;
+			productReference = BFF6DBA9269CA3E000960055 /* DZNote.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		BFF6DBAC269CA3E000960055 /* DZNote WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF6DBD0269CA3E200960055 /* Build configuration list for PBXNativeTarget "DZNote WatchKit App" */;
+			buildPhases = (
+				BFF6DBAB269CA3E000960055 /* Resources */,
+				BFF6DBCF269CA3E200960055 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFF6DBBC269CA3E200960055 /* PBXTargetDependency */,
+			);
+			name = "DZNote WatchKit App";
+			productName = "DZNote WatchKit App";
+			productReference = BFF6DBAD269CA3E000960055 /* DZNote WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		BFF6DBB8269CA3E200960055 /* DZNote WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFF6DBCC269CA3E200960055 /* Build configuration list for PBXNativeTarget "DZNote WatchKit Extension" */;
+			buildPhases = (
+				BFF6DBB5269CA3E200960055 /* Sources */,
+				BFF6DBB6269CA3E200960055 /* Frameworks */,
+				BFF6DBB7269CA3E200960055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DZNote WatchKit Extension";
+			productName = "DZNote WatchKit Extension";
+			productReference = BFF6DBB9269CA3E200960055 /* DZNote WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFF6DBA3269CA3E000960055 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BFF6DBA8269CA3E000960055 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					BFF6DBAC269CA3E000960055 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					BFF6DBB8269CA3E200960055 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = BFF6DBA6269CA3E000960055 /* Build configuration list for PBXProject "DZNote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFF6DBA2269CA3E000960055;
+			productRefGroup = BFF6DBAA269CA3E000960055 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFF6DBA8269CA3E000960055 /* DZNote */,
+				BFF6DBAC269CA3E000960055 /* DZNote WatchKit App */,
+				BFF6DBB8269CA3E200960055 /* DZNote WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFF6DBA7269CA3E000960055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF6DBAB269CA3E000960055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF6DBB3269CA3E200960055 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF6DBB7269CA3E200960055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF6DBC8269CA3E200960055 /* Preview Assets.xcassets in Resources */,
+				BFF6DBC5269CA3E200960055 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFF6DBB5269CA3E200960055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF6DBBF269CA3E200960055 /* ContentView.swift in Sources */,
+				BFF6DBC1269CA3E200960055 /* DZNoteApp.swift in Sources */,
+				BFF6DBC3269CA3E200960055 /* ComplicationController.swift in Sources */,
+				BFF6DBDA269CA73A00960055 /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFF6DBB0269CA3E000960055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFF6DBAC269CA3E000960055 /* DZNote WatchKit App */;
+			targetProxy = BFF6DBAF269CA3E000960055 /* PBXContainerItemProxy */;
+		};
+		BFF6DBBC269CA3E200960055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFF6DBB8269CA3E200960055 /* DZNote WatchKit Extension */;
+			targetProxy = BFF6DBBB269CA3E200960055 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BFF6DBCA269CA3E200960055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFF6DBCB269CA3E200960055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFF6DBCD269CA3E200960055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DZNote WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DZNote WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzhiphop.DZNote.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		BFF6DBCE269CA3E200960055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DZNote WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DZNote WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzhiphop.DZNote.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		BFF6DBD1269CA3E200960055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				IBSC_MODULE = DZNote_WatchKit_Extension;
+				INFOPLIST_FILE = "DZNote WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzhiphop.DZNote.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		BFF6DBD2269CA3E200960055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				IBSC_MODULE = DZNote_WatchKit_Extension;
+				INFOPLIST_FILE = "DZNote WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzhiphop.DZNote.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		BFF6DBD5269CA3E200960055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzhiphop.DZNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BFF6DBD6269CA3E200960055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzhiphop.DZNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFF6DBA6269CA3E000960055 /* Build configuration list for PBXProject "DZNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF6DBCA269CA3E200960055 /* Debug */,
+				BFF6DBCB269CA3E200960055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF6DBCC269CA3E200960055 /* Build configuration list for PBXNativeTarget "DZNote WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF6DBCD269CA3E200960055 /* Debug */,
+				BFF6DBCE269CA3E200960055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF6DBD0269CA3E200960055 /* Build configuration list for PBXNativeTarget "DZNote WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF6DBD1269CA3E200960055 /* Debug */,
+				BFF6DBD2269CA3E200960055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFF6DBD4269CA3E200960055 /* Build configuration list for PBXNativeTarget "DZNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF6DBD5269CA3E200960055 /* Debug */,
+				BFF6DBD6269CA3E200960055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFF6DBA3269CA3E000960055 /* Project object */;
+}
