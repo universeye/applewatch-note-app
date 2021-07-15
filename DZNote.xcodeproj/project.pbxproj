@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BF4FCA7D269F22CA009D4C93 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FCA7C269F22CA009D4C93 /* DetailView.swift */; };
+		BF4FCA81269FFE6D009D4C93 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FCA80269FFE6D009D4C93 /* CreditsView.swift */; };
+		BF4FCA84269FFEB9009D4C93 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FCA83269FFEB9009D4C93 /* HeaderView.swift */; };
 		BFF6DBAE269CA3E000960055 /* DZNote WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BFF6DBAD269CA3E000960055 /* DZNote WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BFF6DBB3269CA3E200960055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF6DBB2269CA3E200960055 /* Assets.xcassets */; };
 		BFF6DBBA269CA3E200960055 /* DZNote WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BFF6DBB9269CA3E200960055 /* DZNote WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -63,6 +65,8 @@
 
 /* Begin PBXFileReference section */
 		BF4FCA7C269F22CA009D4C93 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BF4FCA80269FFE6D009D4C93 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		BF4FCA83269FFEB9009D4C93 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		BFF6DBA9269CA3E000960055 /* DZNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF6DBAD269CA3E000960055 /* DZNote WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DZNote WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF6DBB2269CA3E200960055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF4FCA82269FFEAD009D4C93 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BF4FCA83269FFEB9009D4C93 /* HeaderView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		BFF6DBA2269CA3E000960055 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +131,7 @@
 		BFF6DBBD269CA3E200960055 /* DZNote WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				BF4FCA82269FFEAD009D4C93 /* Components */,
 				BFF6DBD8269CA73000960055 /* Model */,
 				BFF6DBD7269CA72000960055 /* View */,
 				BFF6DBC0269CA3E200960055 /* DZNoteApp.swift */,
@@ -143,6 +156,7 @@
 			children = (
 				BFF6DBBE269CA3E200960055 /* ContentView.swift */,
 				BF4FCA7C269F22CA009D4C93 /* DetailView.swift */,
+				BF4FCA80269FFE6D009D4C93 /* CreditsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -284,8 +298,10 @@
 				BFF6DBBF269CA3E200960055 /* ContentView.swift in Sources */,
 				BFF6DBC1269CA3E200960055 /* DZNoteApp.swift in Sources */,
 				BFF6DBC3269CA3E200960055 /* ComplicationController.swift in Sources */,
+				BF4FCA81269FFE6D009D4C93 /* CreditsView.swift in Sources */,
 				BF4FCA7D269F22CA009D4C93 /* DetailView.swift in Sources */,
 				BFF6DBDA269CA73A00960055 /* Note.swift in Sources */,
+				BF4FCA84269FFEB9009D4C93 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
