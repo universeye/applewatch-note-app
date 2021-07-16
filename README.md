@@ -13,7 +13,7 @@ SwiftUI, a notes taking app only for apple watch follow the courses by [Credo Ac
 
 <img src= "ReadmeSources/contentviewss.png" width = 50% height = 50%> <img src= "ReadmeSources/detailviewss.png" width = 50% height = 50%>
 
-<img src= "ReadmeSources/creditsviewss.png" width = 50% height = 50%>
+<img src= "ReadmeSources/creditsviewss.png" width = 50% height = 50%> <img src= "ReadmeSources/settingsScreenss.png" width = 50% height = 50%>
 
 
 # Source
