@@ -10,6 +10,7 @@
 		BF4FCA7D269F22CA009D4C93 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FCA7C269F22CA009D4C93 /* DetailView.swift */; };
 		BF4FCA81269FFE6D009D4C93 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FCA80269FFE6D009D4C93 /* CreditsView.swift */; };
 		BF4FCA84269FFEB9009D4C93 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FCA83269FFEB9009D4C93 /* HeaderView.swift */; };
+		BF4FCA8826A181C8009D4C93 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4FCA8726A181C8009D4C93 /* SettingsView.swift */; };
 		BFF6DBAE269CA3E000960055 /* DZNote WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BFF6DBAD269CA3E000960055 /* DZNote WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BFF6DBB3269CA3E200960055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF6DBB2269CA3E200960055 /* Assets.xcassets */; };
 		BFF6DBBA269CA3E200960055 /* DZNote WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BFF6DBB9269CA3E200960055 /* DZNote WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -67,6 +68,7 @@
 		BF4FCA7C269F22CA009D4C93 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		BF4FCA80269FFE6D009D4C93 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 		BF4FCA83269FFEB9009D4C93 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		BF4FCA8726A181C8009D4C93 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		BFF6DBA9269CA3E000960055 /* DZNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF6DBAD269CA3E000960055 /* DZNote WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DZNote WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF6DBB2269CA3E200960055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				BFF6DBBE269CA3E200960055 /* ContentView.swift */,
 				BF4FCA7C269F22CA009D4C93 /* DetailView.swift */,
 				BF4FCA80269FFE6D009D4C93 /* CreditsView.swift */,
+				BF4FCA8726A181C8009D4C93 /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFF6DBBF269CA3E200960055 /* ContentView.swift in Sources */,
+				BF4FCA8826A181C8009D4C93 /* SettingsView.swift in Sources */,
 				BFF6DBC1269CA3E200960055 /* DZNoteApp.swift in Sources */,
 				BFF6DBC3269CA3E200960055 /* ComplicationController.swift in Sources */,
 				BF4FCA81269FFE6D009D4C93 /* CreditsView.swift in Sources */,

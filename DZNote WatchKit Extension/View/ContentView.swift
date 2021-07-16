@@ -12,6 +12,8 @@ struct ContentView: View {
     
     @State private var notes: [Note] = []
     @State private var text: String = ""
+    
+    @AppStorage("lineCount") var lineCount: Int = 1
     // MARK: - Function
     
     func save() {
@@ -97,7 +99,7 @@ struct ContentView: View {
                                     .frame(width: 4)
                                     .foregroundColor(.accentColor)
                                 Text(notes[index].text)
-                                    .lineLimit(1)
+                                    .lineLimit(lineCount)
                                     .padding(.leading, 5)
                             }
                         } //: Hstack
@@ -106,7 +108,7 @@ struct ContentView: View {
                         delete(offset: indexSet)
                     })
                 }
-            } else {
+            } else { //Empty View
                 Spacer()
                 Image(systemName: "note.text")
                     .resizable()
